@@ -138,7 +138,7 @@ function showListe(opgave) {
 }
 
 function deleteOpgave(id) {
-  fetch("https://todolist-80da.restdb.io/rest/todolist" + id, {
+  fetch("https://todolist-80da.restdb.io/rest/todolist/" + id, {
     method: "delete",
     headers: {
       "Content-Type": "application/json; charset=utf-8",
